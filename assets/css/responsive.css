@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1400px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .pro-content h5 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  nav {
+    padding: 15px 10px;
+  }
+  .mobi {
+    display: none;
+  }
+  .mobiright {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .abouttxt h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .abouttxt p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .text-decoration {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .numcoun {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
