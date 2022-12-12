@@ -7,7 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory'); ?>/assets/images/favicon.webp" />
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4EQQCEG7XG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-4EQQCEG7XG');
+</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"
@@ -25,7 +32,7 @@
 
         <nav>
             <div>
-                <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.webp" alt="Notaads" />
+               <a href="http://notaads.in/"> <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.webp" alt="Notaads" /></a>
             </div>
             <div class="navright mobi">
                 <li>
